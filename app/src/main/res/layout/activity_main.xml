@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.wuxl.animart.activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/animHeart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="直播送心动画" />
+
+        <Button
+            android:id="@+id/animElasticBall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="变色弹力球加载动画" />
+
+        <Button
+            android:id="@+id/animTwoBall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="酷炫加载动画" />
+
+        <Button
+            android:id="@+id/animBallMove"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="小球轨迹运动加载动画" />
+
+        <Button
+            android:id="@+id/animViscosity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="粘性效果动画" />
+
+        <Button
+            android:id="@+id/animLoadding"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="点跳动加载动画" />
+
+        <Button
+            android:id="@+id/animWave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="注水效果加载动画" />
+
+        <Button
+            android:id="@+id/animLike"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="点赞动画" />
+
+
+        <Button
+            android:id="@+id/animFailOrSuccess"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="加载成功失败动画" />
+
+        <Button
+            android:id="@+id/animSearch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="创意搜索框动画" />
+
+    </LinearLayout>
+
+</ScrollView>
