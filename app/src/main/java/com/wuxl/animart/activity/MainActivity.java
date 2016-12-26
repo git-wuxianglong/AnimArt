@@ -70,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.animWave:
                 //注水效果加载动画
+                startActivity(new Intent(MainActivity.this, WaveActivity.class));
                 break;
             case R.id.animLike:
                 //点赞动画

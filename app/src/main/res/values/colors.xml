@@ -10,5 +10,7 @@
     <color name="colorCyan">#FF7CFC00</color>
     <color name="colorPurple">#FF7A378B</color>
     <color name="colorBlue">#FF436EEE</color>
+    <color name="colorGreen">#FF2ACFA2</color>
+    <color name="colorYellow">#FFFFFF00</color>
 
 </resources>

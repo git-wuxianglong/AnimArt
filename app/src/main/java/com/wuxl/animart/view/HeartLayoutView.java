@@ -88,8 +88,9 @@ public class HeartLayoutView extends RelativeLayout {
      */
     private void init() {
         //设置背景颜色
-        setBackgroundColor(getResources().getColor(R.color.gray));
+//        setBackgroundColor(getResources().getColor(R.color.gray));
         //初始化随机数
+
         random = new Random();
 
         //位于底部且居中

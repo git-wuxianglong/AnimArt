@@ -16,7 +16,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.HeartAnimActivity" />
-        <activity android:name=".activity.ElasticBallActivity"></activity>
+        <activity android:name=".activity.ElasticBallActivity" />
+        <activity android:name=".activity.TwoBallActivity" />
+        <activity android:name=".activity.WaveActivity"></activity>
     </application>
 
 </manifest>
