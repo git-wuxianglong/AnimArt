@@ -58,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.animTwoBall:
                 //酷炫加载动画
+                startActivity(new Intent(MainActivity.this, TwoBallActivity.class));
                 break;
             case R.id.animBallMove:
                 //小球轨迹运动加载动画
