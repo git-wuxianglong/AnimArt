@@ -49,38 +49,43 @@ public class MainActivity extends AppCompatActivity {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.animHeart:
-                //直播送心动画
+                //1:直播送心动画
                 startActivity(new Intent(MainActivity.this, HeartAnimActivity.class));
                 break;
             case R.id.animElasticBall:
-                //变色弹力球加载动画
-                startActivity(new Intent(MainActivity.this, ElasticBallActivity.class));
+                //2:变色弹力球加载动画
+                startActivity(new Intent(MainActivity.this, HeartAnimActivity.ElasticBallActivity.class));
                 break;
             case R.id.animTwoBall:
-                //酷炫加载动画
+                //3:酷炫加载动画
                 startActivity(new Intent(MainActivity.this, TwoBallActivity.class));
                 break;
             case R.id.animBallMove:
-                //小球轨迹运动加载动画
+                //4:小球轨迹运动加载动画
+                startActivity(new Intent(MainActivity.this, BallAnimActivity.class));
                 break;
             case R.id.animViscosity:
-                //粘性效果动画
+                //5:粘性效果动画
+                startActivity(new Intent(MainActivity.this, ViscosityAnimActivity.class));
                 break;
             case R.id.animLoadding:
-                //点跳动加载动画
+                //6:点跳动加载动画
                 break;
             case R.id.animWave:
-                //注水效果加载动画
+                //7:注水效果加载动画
                 startActivity(new Intent(MainActivity.this, WaveActivity.class));
                 break;
             case R.id.animLike:
-                //点赞动画
+                //8:点赞动画
+                startActivity(new Intent(MainActivity.this, LikeAnimActivity.class));
                 break;
             case R.id.animFailOrSuccess:
-                //加载成功失败动画
+                //9:加载成功失败动画
+                startActivity(new Intent(MainActivity.this, FailOrSuccessAnimActivity.class));
                 break;
             case R.id.animSearch:
-                //创意搜索框动画
+                //10:创意搜索框动画
+                startActivity(new Intent(MainActivity.this, SearchAnimActivity.class));
                 break;
         }
     }

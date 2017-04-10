@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="WaitingDots">
+        <attr name="WaitingDots_period" format="integer" />
+        <attr name="WaitingDots_jumpHeight" format="integer" />
+        <attr name="WaitingDots_autoplay" format="boolean" />
+    </declare-styleable>
+
+</resources>
